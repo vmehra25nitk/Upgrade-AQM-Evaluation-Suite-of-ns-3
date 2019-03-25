@@ -2,6 +2,7 @@
 # The Network Simulator, Version 3
 
 [![HitCount](http://hits.dwyl.io/aqm-eval-suite/ns-3-dev-git.svg)](http://hits.dwyl.io/aqm-eval-suite/ns-3-dev-git)
+[![Build Status](https://travis-ci.com/aqm-eval-suite/ns-3-dev-git.png)](https://travis-ci.com/aqm-eval-suite/ns-3-dev-git)
 
 ## Table of Contents:
 
