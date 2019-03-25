@@ -1,0 +1,11 @@
+language: python
+
+python:
+  - 3.6
+
+before_script:
+  - ./waf configure --enable-examples --enable-tests
+  - ./waf build
+
+script:
+  - ./test.py
