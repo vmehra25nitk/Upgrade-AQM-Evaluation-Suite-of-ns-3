@@ -1,9 +1,9 @@
 
-    The Network Simulator, Version 3
-    --------------------------------
+# The Network Simulator, Version 3
 
-Table of Contents:
-------------------
+[![HitCount](http://hits.dwyl.io/aqm-eval-suite/ns-3-dev-git.svg)](http://hits.dwyl.io/aqm-eval-suite/ns-3-dev-git)
+
+## Table of Contents:
 
 1) An overview
 2) Building ns-3
@@ -14,8 +14,7 @@ Table of Contents:
 Note:  Much more substantial information about ns-3 can be found at
 http://www.nsnam.org
 
-1) An Open Source project
--------------------------
+### 1) An Open Source project
 
 ns-3 is a free open source project aiming to build a discrete-event
 network simulator targeted for simulation research and education.   
@@ -34,8 +33,7 @@ This README excerpts some details from a more extensive
 tutorial that is maintained at:
 http://www.nsnam.org/documentation/latest/
 
-2) Building ns-3
-----------------
+### 2) Building ns-3
 
 The code for the framework and the default models provided
 by ns-3 is built as a set of libraries. User simulations
@@ -62,8 +60,7 @@ set of platforms listed in the RELEASE_NOTES file.
 Other platforms may or may not work: we welcome patches to 
 improve the portability of the code to these other platforms. 
 
-3) Running ns-3
----------------
+### 3) Running ns-3
 
 On recent Linux systems, once you have built ns-3 (with examples
 enabled), it should be easy to run the sample programs with the
@@ -76,8 +73,7 @@ trace file and a set of simple-global-routing-xx-xx.pcap binary
 pcap trace files, which can be read by tcpdump -tt -r filename.pcap
 The program source can be found in the examples/routing directory.
 
-4) Getting access to the ns-3 documentation
--------------------------------------------
+### 4) Getting access to the ns-3 documentation
 
 Once you have verified that your build of ns-3 works by running
 the simple-point-to-point example as outlined in 3) above, it is
@@ -102,8 +98,7 @@ This documentation includes:
     as introductory text:
     http://www.nsnam.org/doxygen/index.html
 
-5) Working with the development version of ns-3
------------------------------------------------
+### 5) Working with the development version of ns-3
 
 If you want to download and use the development version 
 of ns-3, you need to use the tool 'mercurial'. A quick and
