@@ -22,4 +22,4 @@ before_install:
   - eval "${COMPILER_VERSION}"
 
 script:
-  - ./waf configure --enable-examples --enable-tests && ./waf && ./test.py
+  - ./waf configure --enable-tests && ./waf build && ./test.py
