@@ -33,9 +33,10 @@ ScenarioImpl::ScenarioImpl ()
     "ns3::FengAdaptiveRedQueueDisc",
     "ns3::NonLinearRedQueueDisc",
     "ns3::CoDelQueueDisc",
-    "ns3::PieQueueDisc"
+    "ns3::PieQueueDisc",
+    "ns3::CobaltQueueDisc"
   };
-  m_nAQM = 7;
+  m_nAQM = 8;
 }
 
 ScenarioImpl::~ScenarioImpl ()
